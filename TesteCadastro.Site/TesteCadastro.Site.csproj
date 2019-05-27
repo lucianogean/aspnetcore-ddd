@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <UserSecretsId>aspnet-TesteCadastro.Site-5D985ED8-F274-452B-AA1B-4ECC1F136DDD</UserSecretsId>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.0" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <ProjectReference Include="..\TesteCadastro.Application\TesteCadastro.Application.csproj" />
+    <ProjectReference Include="..\TesteCadastro.Domain\TesteCadastro.Domain.csproj" />
+    <ProjectReference Include="..\TesteCadastro.Infra\TesteCadastro.Infra.csproj" />
+  </ItemGroup>
+
+</Project>

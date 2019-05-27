@@ -1,0 +1,65 @@
+﻿@model TesteCadastro.Domain.Entities.Servico
+
+@{
+    ViewData["Title"] = "Detalhes";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoServico)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoServico.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroNota)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumeroNota)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tempo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tempo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.Nome)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Editar", "Edit", new { id = Model.Id }, new { @class = "btn btn-success" }) |
+    <a asp-action="Index">Voltar para lista</a>
+</div>

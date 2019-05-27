@@ -1,0 +1,68 @@
+﻿@model TesteCadastro.Domain.Entities.Servico
+
+@{
+    ViewData["Title"] = "Deletar";
+}
+
+<h2>Apager Serviço</h2>
+
+<h3>Você tem certeza que deseja remover?</h3>
+<div>
+    <h4>Usuario</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.TipoServico)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TipoServico.Descricao)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumeroNota)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumeroNota)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tempo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Tempo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Cliente)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Cliente.Nome)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Deletar" class="btn btn-danger" /> |
+        <a asp-action="Index">Voltar para lista</a>
+    </form>
+</div>

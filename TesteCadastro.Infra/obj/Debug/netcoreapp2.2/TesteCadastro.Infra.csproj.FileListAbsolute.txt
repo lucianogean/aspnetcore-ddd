@@ -1,0 +1,14 @@
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Infra.deps.json
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Infra.dll
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.csprojAssemblyReference.cache
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.csproj.CoreCompileInputs.cache
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.AssemblyInfoInputs.cache
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.AssemblyInfo.cs
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Infra.pdb
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Domain.dll
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Domain.pdb
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.csproj.CopyComplete
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.dll
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\obj\Debug\netcoreapp2.2\TesteCadastro.Infra.pdb
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Infra.runtimeconfig.json
+C:\Users\l.robe\source\repos\TesteCadastro\TesteCadastro.Infra\bin\Debug\netcoreapp2.2\TesteCadastro.Infra.runtimeconfig.dev.json
